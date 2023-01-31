@@ -13,6 +13,9 @@ module.exports = {
             fontFamily: {
                 noto_sans: ['var(--font-noto_sans)'],
             },
+            gridTemplateColumns: {
+                fluid: 'repeat(auto-fit,minmax(15rem,1fr))',
+            },
         },
     },
     plugins: [],

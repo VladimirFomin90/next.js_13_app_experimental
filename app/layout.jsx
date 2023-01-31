@@ -15,7 +15,7 @@ export default function RootLayout({ children }) {
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
             <head />
-            <body className={`${noto_sans.className}`}>{children}</body>
+            <body className={`${noto_sans.className} mx-10`}>{children}</body>
         </html>
     );
 }
